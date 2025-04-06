@@ -1,4 +1,4 @@
-const api_key = import.meta.env.VITE_ai_key
+const api_key = "AIzaSyCjyx_XhHgy3pR_dAF9D7Jbha_hyyq9Tn8"
 
 
 import {

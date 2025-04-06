@@ -19,14 +19,14 @@ const Main = () => {
   return (
     <div className='main'>
         <div className='nav'>
-            <p>GENZ-AI</p>
+            <p>Islem-AI</p>
             <img src={assets.user_icon} />
         </div>
         <div className="main-container">
             {!showResult ?
             <>
             <div className="greet">
-                <p><span>Hello, Genz.</span></p>
+                <p><span>Hello I am Islem AI</span></p>
                 <p>How can I assit you today</p>
             </div>
             <div className='cards'>
