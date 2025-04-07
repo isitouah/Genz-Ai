@@ -20,7 +20,7 @@ const Main = () => {
     <div className='main'>
         <div className='nav'>
             <p>Islem-AI</p>
-            <img src={assets.user_icon} />
+            <img src={"https://cdn-icons-png.flaticon.com/128/17510/17510645.png"} />
         </div>
         <div className="main-container">
             {!showResult ?
