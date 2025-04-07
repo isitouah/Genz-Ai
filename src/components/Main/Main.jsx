@@ -68,16 +68,13 @@ const Main = () => {
             
             <div className="main-bottom">
                 <div className="search-box">
-                    <input onChange={(e) => {setInput(e.target.value)}}  value={input} type='text' placeholder='enter a prompt' />
+                    <input onChange={(e) => {setInput(e.target.value)}}  value={input} type='text' placeholder='Ask islem' />
                     <div>
                         <img src={assets.gallery_icon} alt="" />
                         <img src={assets.mic_icon} alt="" />
                        { input ? <img onClick={() => {onSent(input)}} src={assets.send_icon} alt="" />  : null }
                     </div>
                 </div>
-                <p className="bottom-info">
-                    Genz-AI may display inaccurate info, including about people, so double check it response.(Gimini clone by AJibade-coder)
-                </p>
             </div>
         </div>
     </div>
